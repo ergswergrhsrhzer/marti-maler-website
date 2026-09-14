@@ -298,6 +298,7 @@ footer {
   letter-spacing: 0.16em;
   color: rgba(138, 129, 116, 0.55);
 }
+.credit a { color: inherit; }
 
 @media (max-width: 980px) {
   .nav-links { display: none; }
