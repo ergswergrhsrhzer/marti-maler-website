@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marti Maler | Malerarbeiten in Fislisbach & Aargau</title>
+  <meta name="description" content="Andrea Marti Maler in Fislisbach: Innen- und Aussenmalerei, Tapezierarbeiten und Renovationen. Qualität, Präzision und pünktliche Fertigstellung." />
+  <link rel="icon" href="./images/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Outfit:wght@360;480;560;650&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="nav" id="nav">
+    <a class="brand" href="#top">
+      <img src="./images/logo.png" alt="Marti Maler Logo" />
+      Marti Maler
+    </a>
+    <nav class="nav-links">
+      <a href="#leistungen">Leistungen</a>
+      <a href="#arbeiten">Arbeiten</a>
+      <a href="#ueber">Über mich</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="nav-cta" href="https://wa.me/41763885082" target="_blank" rel="noreferrer">WhatsApp</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menü">☰</button>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="hero-photo"></div>
+    <canvas id="scene"></canvas>
+    <div class="hero-content">
+      <p class="eyebrow">Fislisbach · Aargau</p>
+      <h1>Farbe, die Räume trägt.</h1>
+      <p>Marti Maler steht für Qualität, Präzision und pünktliche Fertigstellung. Innen, aussen und bei Renovationen: hochwertige Materialien, saubere Ausführung, echte Handwerkskunst.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#arbeiten">Arbeiten ansehen</a>
+        <a class="btn btn-ghost" href="#kontakt">Offerte anfragen</a>
+      </div>
+    </div>
+    <div class="scroll-hint">Scrollen</div>
+  </section>
+
+  <section id="leistungen">
+    <div class="section-head">
+      <h2>Leistungen</h2>
+      <p class="lede">Vom feinen Innenanstrich bis zur wetterfesten Fassade – alles aus einer Hand.</p>
+    </div>
+    <div class="services">
+      <article class="card">
+        <img src="./images/service-innen.webp" alt="Innere Malerarbeiten" />
+        <div class="card-body">
+          <h3>Innere Malerarbeiten</h3>
+          <p>Professionelle Malerarbeiten für ein neues Raumgefühl. Frisch, kreativ, individuell. Wände, Decken, Türen und Fenster.</p>
+          <ul>
+            <li>Hochwertige Farben</li>
+            <li>Professionelle Techniken</li>
+            <li>Perfektes Ergebnis</li>
+          </ul>
+        </div>
+      </article>
+      <article class="card">
+        <img src="./images/service-aussen.png" alt="Äussere Malerarbeiten" />
+        <div class="card-body">
+          <h3>Äussere Malerarbeiten</h3>
+          <p>Fassadenanstrich für langanhaltenden Schutz und attraktive Optik. Qualität, Zuverlässigkeit, Ästhetik.</p>
+          <ul>
+            <li>Neuer Anstrich</li>
+            <li>Langanhaltender Schutz</li>
+            <li>Professionelle Ausführung</li>
+          </ul>
+        </div>
+      </article>
+      <article class="card">
+        <img src="./images/arbeiten/41.jpg" alt="Tapezier- und Renovierungsarbeiten" />
+        <div class="card-body">
+          <h3>Tapezieren & Renovation</h3>
+          <p>Fachgerechtes Tapezieren und stilvolle Raumgestaltung. Präzise, zuverlässig, mit Blick fürs Detail.</p>
+          <ul>
+            <li>Präzise Arbeit</li>
+            <li>Moderne Raumgestaltung</li>
+            <li>Erstklassiges Ergebnis</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="arbeiten">
+    <div class="section-head">
+      <h2>Arbeiten</h2>
+      <p class="lede">Echte Projekte von der Baustelle – Innenräume, Fassaden und Details.</p>
+    </div>
+    <div class="gallery-grid" id="gallery"></div>
+  </section>
+
+  <section class="about" id="ueber">
+    <div>
+      <p class="eyebrow">Kleinbetrieb mit Anspruch</p>
+      <h2>Über mich</h2>
+      <p>Marti Maler ist ein Kleinbetrieb mit langjähriger Erfahrung im Malerhandwerk. Ich lege grossen Wert auf Qualität, Zuverlässigkeit und Kundenzufriedenheit. Jedes Projekt wird mit Leidenschaft, Sorgfalt und Professionalität betreut – damit das Ergebnis Ihre Erwartungen übertrifft.</p>
+      <div class="stats">
+        <div class="stat"><b>Innen</b><span>Wände & Decken</span></div>
+        <div class="stat"><b>Aussen</b><span>Fassaden-Schutz</span></div>
+        <div class="stat"><b>Aargau</b><span>Fislisbach & Region</span></div>
+      </div>
+    </div>
+    <div class="about-photo" role="img" aria-label="Beispiel einer fertigen Malerarbeit"></div>
+  </section>
+
+  <section id="kontakt">
+    <div class="contact-wrap">
+      <div>
+        <h2>Kontakt</h2>
+        <p>Möchten Sie mehr über Dienstleistungen und Offerten erfahren? Schreiben Sie mir – ich freue mich auf Ihre Nachricht.</p>
+        <div class="meta">
+          <strong>Andrea Marti Maler</strong>
+          <span>Mattrütistr. 8</span>
+          <span>5442 Fislisbach, Aargau</span>
+          <a href="https://wa.me/41763885082" target="_blank" rel="noreferrer">WhatsApp: 076 388 50 82</a>
+          <a href="https://instagram.com/marti.maler" target="_blank" rel="noreferrer">Instagram @marti.maler</a>
+        </div>
+      </div>
+      <form id="contact-form">
+        <input id="name" name="name" required placeholder="Name *" />
+        <input id="email" name="email" type="email" required placeholder="E-Mail-Adresse *" />
+        <textarea id="message" name="message" required placeholder="Nachricht *"></textarea>
+        <button class="btn btn-primary" type="submit">Per WhatsApp senden</button>
+        <p class="form-note">Die Nachricht öffnet WhatsApp mit Ihrem Text – direkt an Andrea Marti.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <span>© <span id="y"></span> Andrea Marti Maler</span>
+    <span>Malerarbeiten Fislisbach · Aargau</span>
+  </footer>
+  <p class="credit">made by mekkz</p>
+
+  <div class="lightbox" id="lightbox">
+    <button id="close-lightbox" aria-label="Schliessen">×</button>
+    <img id="lightbox-img" alt="Grosse Ansicht der Malerarbeit" />
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+  <script src="./app.js"></script>
+</body>
+</html>
