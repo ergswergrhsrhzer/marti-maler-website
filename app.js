@@ -115,6 +115,13 @@ for (let i = 1; i <= TOTAL; i += 1) {
   gallery.appendChild(btn);
 }
 
+const moreBtn = document.getElementById("gallery-more");
+moreBtn.addEventListener("click", () => {
+  const collapsed = gallery.classList.toggle("is-collapsed");
+  moreBtn.textContent = collapsed ? `Alle ${TOTAL} Bilder zeigen` : "Weniger zeigen";
+  if (collapsed) gallery.scrollIntoView({ behavior: "smooth", block: "start" });
+});
+
 document.getElementById("close-lightbox").addEventListener("click", () => {
   lightbox.classList.remove("open");
 });
